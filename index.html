@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1>Delicious Bistro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Delicious Bistro</h2>
+            <p>Enjoy mouth-watering dishes made with the freshest ingredients.</p>
+            <a href="#menu" class="cta-button">See Our Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Grilled Chicken</h3>
+                <p>A tender and juicy grilled chicken served with fresh veggies.</p>
+                <p class="price">$12.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pasta Primavera</h3>
+                <p>A classic pasta with mixed vegetables in a creamy sauce.</p>
+                <p class="price">$14.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Fresh mozzarella, basil, and tomato sauce on a crispy crust.</p>
+                <p class="price">$10.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Delicious Bistro, we serve a variety of delicious dishes, made from the finest local ingredients. Whether you're craving comfort food or looking to try something new, we have something for everyone. Our chefs are dedicated to bringing the best flavors to your table!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bistro | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
